@@ -7,4 +7,4 @@
 <img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/chess-card.svg" width="100%" /><br>
 <img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/footer.svg" width="100%" />
 
-<sub>Character: "10000 Followers! Milestone - Shade of Neo-Tokyo" by [Moon dong hwa](https://sketchfab.com/moondonghwa), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changes: speech bubble removed, rendered to animation frames. Made with [Starforge](https://github.com/ShyneChikwapulo/Starforge).</sub>
+<sub>Character: "Cyber Samurai" by [KhoaMinh](https://sketchfab.com/duongminhkhoa231), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changes: rendered to animation frames with added lighting and a procedural idle motion. Made with [Starforge](https://github.com/ShyneChikwapulo/Starforge).</sub>
