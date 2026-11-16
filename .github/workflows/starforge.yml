@@ -36,7 +36,7 @@ jobs:
           git commit -m "chore: make this repository yours"
           git push origin "HEAD:$GITHUB_REF_NAME"
 
-      - uses: ShyneChikwapulo/Starforge@main
+      - uses: ShyneChikwapulo/Starforge@v0.16.0
         id: starforge
         with:
           token: ${{ secrets.STARFORGE_TOKEN || github.token }}
