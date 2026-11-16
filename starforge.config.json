@@ -1,0 +1,12 @@
+{
+  "username": "ShyneChikwapulo",
+  "presets": ["galaxy", "tunnel", "tree", "atom", "chess"],
+  "hero": true,
+  "heroCharacter": "assets/character",
+  "presetCard": true,
+  "page": true,
+  "divider": "Presets",
+  "legend": false,
+  "frames": 48,
+  "quality": 75
+}

@@ -1,0 +1,62 @@
+name: Starforge
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Make this repository yours
+        if: github.repository != 'ShyneChikwapulo/starforge-template'
+        env:
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.repository }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: |
+          if [ "$REPO_NAME" != "$OWNER" ]; then
+            echo "::warning::A profile README only shows on your profile if this repository is named exactly like your username ($OWNER). This one is named $REPO_NAME."
+          fi
+          sed -i "s#ShyneChikwapulo/starforge-template#${REPO}#g" README.md
+          sed -i "s#\"username\": \"[^\"]*\"#\"username\": \"${OWNER}\"#" starforge.config.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md starforge.config.json
+          if git diff --cached --quiet; then
+            echo "Already yours."
+            exit 0
+          fi
+          git commit -m "chore: make this repository yours"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - uses: ShyneChikwapulo/Starforge@v0.14.0
+        with:
+          token: ${{ secrets.STARFORGE_TOKEN || github.token }}
+          publish-branch: starforge-assets
+
+      - name: Commit the metrics snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add starforge/metrics.json
+          if git diff --cached --quiet; then
+            echo "Metrics unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: update Starforge metrics"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying..."
+            sleep $((attempt * 5))
+          done
+          echo "Could not push the metrics snapshot." >&2
+          exit 1
