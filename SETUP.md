@@ -7,16 +7,17 @@ You will have your own animated GitHub profile README in about five minutes.
    GitHub show the repository's README on your profile.
 2. **Run it once.** Open the **Actions** tab, choose **Starforge**, and click **Run workflow**.
    If GitHub asks you to enable workflows first, do that. The first run takes a few minutes: it
-   draws five animations. The run also fills in your username and image links, so there is nothing
-   to edit by hand.
+   draws the animation and the cards. The run also fills in your username and image links, so
+   there is nothing to edit by hand.
 3. **Look at your profile.** Open `github.com/<your username>`. After the first run your page is
    live, and it refreshes every day on its own.
 
 ## Make it yours
 
-- **Pick other presets.** Edit `presets` in `starforge.config.json`. The choices are `galaxy`,
-  `tunnel`, `tree`, `atom` and `chess`. If you change which ones you use, change the matching
-  `<img>` lines in `README.md` too: each preset's card is `<preset>-card.svg`.
+- **Pick other presets.** The template draws `atom`. Edit `presets` in `starforge.config.json` to
+  change it or add more. The choices are `galaxy`, `tunnel`, `tree`, `atom` and `chess`. If you
+  change which ones you use, change the matching `<img>` lines in `README.md` too: each preset's
+  card is `<preset>-card.svg`.
 - **Pick your info cards.** `infoCards` in `starforge.config.json` lists the plain data cards:
   `languages`, `heatmap`, `opensource` and `rhythm`. Each is written as `<card>-card.svg`, so if you
   add or remove one, add or remove the matching `<img>` line in `README.md` too.
