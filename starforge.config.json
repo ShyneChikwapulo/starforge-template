@@ -1,6 +1,6 @@
 {
   "username": "ShyneChikwapulo",
-  "presets": ["galaxy", "tunnel", "tree", "atom", "chess"],
+  "presets": ["atom"],
   "hero": true,
   "heroCharacter": "assets/character",
   "presetCard": true,
