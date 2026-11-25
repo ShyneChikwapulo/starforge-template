@@ -5,7 +5,8 @@
   "heroCharacter": "assets/character",
   "presetCard": true,
   "page": true,
-  "divider": "Presets",
+  "divider": "Your year",
+  "infoCards": ["languages", "heatmap", "opensource", "rhythm"],
   "legend": false,
   "frames": 48,
   "quality": 75
