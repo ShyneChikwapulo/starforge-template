@@ -21,6 +21,9 @@ You will have your own animated GitHub profile README in about five minutes.
 - **Pick your info cards.** `infoCards` in `starforge.config.json` lists the plain data cards:
   `languages`, `heatmap`, `opensource` and `rhythm`. Each is written as `<card>-card.svg`, so if you
   add or remove one, add or remove the matching `<img>` line in `README.md` too.
+- **Change the colour.** The template uses the cyberpunk skin. For the calmer `default` skin in your
+  own accent colour, set `"skin": "default"` and `"skinAccent": "#ff2e88"` in `starforge.config.json`.
+  The cyberpunk skin keeps its own colours, so `skinAccent` only works with `"default"`.
 - **Your private contributions.** By default the workflow can only see your public activity. To
   include private contributions, create a personal access token with the `read:user` scope and
   save it as a repository secret named `STARFORGE_TOKEN`.
