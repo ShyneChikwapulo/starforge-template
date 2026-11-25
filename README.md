@@ -1,10 +1,10 @@
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/hero.svg?v=0b3937b196" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/divider.svg?v=0b3937b196" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/atom-card.svg?v=0b3937b196" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/languages-card.svg?v=0b3937b196" alt="My languages, by share of code" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/heatmap-card.svg?v=0b3937b196" alt="My contributions over the last 12 months" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/opensource-card.svg?v=0b3937b196" alt="My pull requests and the projects I have contributed to" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/rhythm-card.svg?v=0b3937b196" alt="When my contributions happen, by weekday and by month" width="100%" /><br>
-<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/footer.svg?v=0b3937b196" width="100%" />
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/hero.svg?v=a2d92860ac" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/divider.svg?v=a2d92860ac" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/atom-card.svg?v=a2d92860ac" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/languages-card.svg?v=a2d92860ac" alt="My languages, by share of code" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/heatmap-card.svg?v=a2d92860ac" alt="My contributions over the last 12 months" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/opensource-card.svg?v=a2d92860ac" alt="My pull requests and the projects I have contributed to" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/rhythm-card.svg?v=a2d92860ac" alt="When my contributions happen, by weekday and by month" width="100%" /><br>
+<img align="top" src="https://raw.githubusercontent.com/ShyneChikwapulo/starforge-template/starforge-assets/footer.svg?v=a2d92860ac" width="100%" />
 
 <sub>Character: "Cyber Samurai" by [KhoaMinh](https://sketchfab.com/duongminhkhoa231), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changes: rendered to animation frames with added lighting and a procedural idle motion. Atom: ["Github_kitten"](https://sketchfab.com/3d-models/github-kitten-83d5a6d1a12b4427bbfd662fbc478f8d) by [m.adityamondal2003](https://sketchfab.com/m.adityamondal2003), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); changes: posed at rest, rescaled and resampled as points. Language logos from [Devicon](https://devicon.dev) (MIT). Made with [Starforge](https://github.com/ShyneChikwapulo/Starforge).</sub>
