@@ -17,6 +17,9 @@ You will have your own animated GitHub profile README in about five minutes.
 - **Pick other presets.** Edit `presets` in `starforge.config.json`. The choices are `galaxy`,
   `tunnel`, `tree`, `atom` and `chess`. If you change which ones you use, change the matching
   `<img>` lines in `README.md` too: each preset's card is `<preset>-card.svg`.
+- **Pick your info cards.** `infoCards` in `starforge.config.json` lists the plain data cards:
+  `languages`, `heatmap`, `opensource` and `rhythm`. Each is written as `<card>-card.svg`, so if you
+  add or remove one, add or remove the matching `<img>` line in `README.md` too.
 - **Your private contributions.** By default the workflow can only see your public activity. To
   include private contributions, create a personal access token with the `read:user` scope and
   save it as a repository secret named `STARFORGE_TOKEN`.
